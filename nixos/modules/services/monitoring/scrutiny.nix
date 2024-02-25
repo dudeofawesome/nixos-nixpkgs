@@ -219,5 +219,5 @@ in
     };
   };
 
-  meta.maintainers = [ lib.maintainers.jnsgruk ];
+  meta.maintainers = with lib.maintainers; [ jnsgruk dudeofawesome ];
 }
