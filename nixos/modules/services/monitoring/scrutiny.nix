@@ -112,7 +112,7 @@ in
       };
 
       collector = {
-        enable = lib.mkEnableOption "Enables the scrutiny metrics collector.";
+        enable = lib.mkEnableOption "the scrutiny metrics collector.";
 
         package = lib.mkPackageOption pkgs "scrutiny-collector" { };
 
