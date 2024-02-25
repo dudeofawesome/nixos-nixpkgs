@@ -199,6 +199,10 @@ in
           serviceConfig = {
             Type = "oneshot";
             ExecStart = "${lib.getExe cfg.collector.package} run --config ${settingsFormat.generate "scrutiny-collector.yaml" cfg.collector.settings}";
+            PrivateTmp = true;
+            ProtectHome = true;
+            ProtectSystem = "full";
+            NoNewPrivileges = true;
           };
         };
       };
