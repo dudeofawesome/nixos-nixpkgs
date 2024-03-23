@@ -5284,6 +5284,11 @@
     github = "dsymbol";
     githubId = 88138099;
   };
+  dudeofawesome = {
+    name = "Louis Orleans";
+    github = "dudeofawesome";
+    githubId = 1683595;
+  };
   dtzWill = {
     email = "w@wdtz.org";
     github = "dtzWill";
