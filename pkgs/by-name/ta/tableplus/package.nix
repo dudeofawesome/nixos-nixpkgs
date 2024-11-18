@@ -6,7 +6,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "tableplus";
-  version = "538";
+  version = "574";
   src = fetchurl {
     url = "https://download.tableplus.com/macos/${finalAttrs.version}/TablePlus.dmg";
     hash = "sha256-db3dvjEzkqWrEO+lXyImk0cVBkh8MnCwHOYKIg+kRC4=";
